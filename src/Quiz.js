@@ -12,11 +12,11 @@ class Quiz extends React.Component {
       }
 
     render() {
-      return  
-          <div className='QuizQuestion'>
+      return  (
+        <div className='QuizQuestion'>
               {quizData.quiz_questions[this.state.quiz_position].instruction_text};
           </div>
-      
+          )
     }
   }
 
